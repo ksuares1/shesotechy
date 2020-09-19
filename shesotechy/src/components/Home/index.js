@@ -37,6 +37,9 @@ const HomePage = () => {
 </hr>
 <br>
 </br>
+<p className="blog-description"> A collection of articles that address the latest tech news, along with information about Kimberly Suares journey into tech.</p>
+<br>
+</br>
 <MDBCardGroup className="text-align:center">
       <MDBCard>
         <MDBCardImage src={require("../../assets/img/user-experience.jpg")} alt=" User Journey" top hover
@@ -53,12 +56,12 @@ const HomePage = () => {
       </MDBCard>
 
       <MDBCard className="text-align:center">
-        <MDBCardImage src={require("../../assets/img/girl-typing.jpg")} alt="Women typing on laptop" top hover
+        <MDBCardImage className="kim-pic" src={require("../../assets/img/kimberly-suares.JPG")} alt="Kimberly Suares" top hover
           overlay="white-slight" />
         <MDBCardBody>
-          <MDBCardTitle  tag="h5">Typing</MDBCardTitle>
+          <MDBCardTitle  tag="h5">My journey as a Full Stack Engineer</MDBCardTitle>
           <MDBCardText>
-           How can you keep your manicure cute and still type over 100 wpm? 
+           After being rejected so many times, how did become a Full Stack Engineer? Find out how I never gave up. 
           </MDBCardText>
           <MDBBtn href="/blog" color="primary" size="md">
             Find out More
@@ -81,6 +84,8 @@ const HomePage = () => {
       </MDBCard>
     </MDBCardGroup>
 
+    <br>
+    </br>
       
     </main>
 

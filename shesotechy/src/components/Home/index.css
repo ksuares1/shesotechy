@@ -1,5 +1,7 @@
 .blog-title{
     text-align: center;
+    font-family:lobster;
+    font-size: 50px;
 }
 
 .card-title{
@@ -10,4 +12,15 @@
     margin:auto;
     width:45%;
     height:45%;
+}
+
+.blog-description{
+    text-align:center;
+    font-size:16px;
+}
+
+.kim-pic{
+width:85%;
+height:50%;
+margin:auto;
 }
