@@ -1,3 +1,13 @@
 .blog-title{
     text-align: center;
 }
+
+.card-title{
+    text-align: center;
+}
+
+.line-dash{
+    margin:auto;
+    width:45%;
+    height:45%;
+}

@@ -32,8 +32,8 @@ const HomePage = () => {
 </br>
 
 {/* Blog Cards */}
-<h1 className="blog-title">ShesoTechy</h1>
-<hr>
+<h1 className="blog-title">ShesoTechy Blog</h1>
+<hr className="line-dash">
 </hr>
 <br>
 </br>
@@ -42,41 +42,40 @@ const HomePage = () => {
         <MDBCardImage src={require("../../assets/img/user-experience.jpg")} alt=" User Journey" top hover
           overlay="white-slight" />
         <MDBCardBody>
-          <MDBCardTitle tag="h5">User Experience</MDBCardTitle>
+          <MDBCardTitle className="card-title" tag="h5">User Experience</MDBCardTitle>
           <MDBCardText>
           Looking to create a new website? Mapping out your user journey can lead to more visits, and consumers purchasing your products. 
           </MDBCardText>
-          <MDBBtn href="/login" color="primary" size="md">
+          <MDBBtn href="/blog" color="primary" size="md">
             Find out How
           </MDBBtn>
         </MDBCardBody>
       </MDBCard>
 
       <MDBCard className="text-align:center">
-        <MDBCardImage src={require("../../assets/img/girl-typing.jpg")} alt="Family" top hover
+        <MDBCardImage src={require("../../assets/img/girl-typing.jpg")} alt="Women typing on laptop" top hover
           overlay="white-slight" />
         <MDBCardBody>
-          <MDBCardTitle  tag="h5">Family</MDBCardTitle>
+          <MDBCardTitle  tag="h5">Typing</MDBCardTitle>
           <MDBCardText>
-            Connecting to our love one's when is an important part of their health journey. 
-            Login to your account to view the latest medications being administered to your family member. 
+           How can you keep your manicure cute and still type over 100 wpm? 
           </MDBCardText>
-          <MDBBtn href="/family" color="primary" size="md">
-            Track
+          <MDBBtn href="/blog" color="primary" size="md">
+            Find out More
           </MDBBtn>
         </MDBCardBody>
       </MDBCard>
 
       <MDBCard>
-        <MDBCardImage src={require("../../assets/img/women-tech.jpg")} alt= "Nurse with patient" top hover
+        <MDBCardImage src={require("../../assets/img/women-tech.jpg")} alt= "Women with laptop" top hover
           overlay="white-slight" />
         <MDBCardBody>
-          <MDBCardTitle tag="h5">Patient</MDBCardTitle>
+          <MDBCardTitle tag="h5">Tech News</MDBCardTitle>
           <MDBCardText>
-          Nurses can quickly and securely see  the latest medicial updates on their patients.
+          Angular, Vue, React, Python... What's the latest programming language you should learn, and why? 
           </MDBCardText>
-          <MDBBtn  href="/patient" color="primary" size="md">
-            Update
+          <MDBBtn  href="/blog" color="primary" size="md">
+            Read More
           </MDBBtn>
         </MDBCardBody>
       </MDBCard>
