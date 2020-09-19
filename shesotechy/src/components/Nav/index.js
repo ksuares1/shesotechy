@@ -3,9 +3,7 @@ import "./index.css";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
-import Button from 'react-bootstrap/Button';
+
 
 
 function NavBar() {
@@ -24,10 +22,6 @@ function NavBar() {
               <NavDropdown.Item href="/blog">Blog</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-info">Search</Button> 
-          </Form>
         </Navbar.Collapse>
       </Navbar>
 
