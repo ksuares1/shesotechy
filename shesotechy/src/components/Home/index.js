@@ -1,7 +1,7 @@
 import React from "react";
 import './index.css';
 import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdbreact";
-import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText } from 'mdbreact';
+import { MDBCard, MDBCardTitle, MDBCardGroup, MDBCardImage, MDBCardText, MDBCardBody } from "mdbreact";
 
 const HomePage = () => {
   return (
@@ -30,22 +30,59 @@ const HomePage = () => {
 </br>
 <br>
 </br>
-<div className="row">
-<MDBCol>
-  <h1 className="blog-title">ShesoTechy Blog</h1> 
-      <MDBCard style={{ width: "22rem" }}>
-        <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
+
+{/* Blog Cards */}
+<h1 className="blog-title">ShesoTechy</h1>
+<hr>
+</hr>
+<br>
+</br>
+<MDBCardGroup className="text-align:center">
+      <MDBCard>
+        <MDBCardImage src={require("../../assets/img/user-experience.jpg")} alt=" User Journey" top hover
+          overlay="white-slight" />
         <MDBCardBody>
-          <MDBCardTitle>Card title</MDBCardTitle>
+          <MDBCardTitle tag="h5">User Experience</MDBCardTitle>
           <MDBCardText>
-            Some quick example text to build on the card title and make
-            up the bulk of the card&apos;s content.
+          Looking to create a new website? Mapping out your user journey can lead to more visits, and consumers purchasing your products. 
           </MDBCardText>
-          <MDBBtn href="#">MDBBtn</MDBBtn>
+          <MDBBtn href="/login" color="primary" size="md">
+            Find out How
+          </MDBBtn>
         </MDBCardBody>
       </MDBCard>
-    </MDBCol>
-    </div>
+
+      <MDBCard className="text-align:center">
+        <MDBCardImage src={require("../../assets/img/girl-typing.jpg")} alt="Family" top hover
+          overlay="white-slight" />
+        <MDBCardBody>
+          <MDBCardTitle  tag="h5">Family</MDBCardTitle>
+          <MDBCardText>
+            Connecting to our love one's when is an important part of their health journey. 
+            Login to your account to view the latest medications being administered to your family member. 
+          </MDBCardText>
+          <MDBBtn href="/family" color="primary" size="md">
+            Track
+          </MDBBtn>
+        </MDBCardBody>
+      </MDBCard>
+
+      <MDBCard>
+        <MDBCardImage src={require("../../assets/img/women-tech.jpg")} alt= "Nurse with patient" top hover
+          overlay="white-slight" />
+        <MDBCardBody>
+          <MDBCardTitle tag="h5">Patient</MDBCardTitle>
+          <MDBCardText>
+          Nurses can quickly and securely see  the latest medicial updates on their patients.
+          </MDBCardText>
+          <MDBBtn  href="/patient" color="primary" size="md">
+            Update
+          </MDBBtn>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCardGroup>
+
+      
     </main>
 
     )
