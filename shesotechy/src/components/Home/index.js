@@ -30,7 +30,17 @@ const HomePage = () => {
 </br>
 <br>
 </br>
+<MDBRow>
+  <MDBCol>
+    <img src={require("../../assets/img/kim-jump.jpg")} className="jump" alt="Kimberly Suares jumping for joy" />
+    <div>
+  <h1 className="intro">Hi! I'm Kimberly Suares</h1>
+  </div>
+  </MDBCol>
+</MDBRow>
 
+<br>
+</br>
 {/* Blog Cards */}
 <h1 className="blog-title">ShesoTechy Blog</h1>
 <hr className="line-dash">
@@ -56,12 +66,12 @@ const HomePage = () => {
       </MDBCard>
 
       <MDBCard className="text-align:center">
-        <MDBCardImage className="kim-pic" src={require("../../assets/img/kimberly-suares.JPG")} alt="Kimberly Suares" top hover
+        <MDBCardImage className="kim-pic" src={require("../../assets/img/girl-typing.jpg")} alt="Kimberly Suares" top hover
           overlay="white-slight" />
         <MDBCardBody>
-          <MDBCardTitle  tag="h5">My journey as a Full Stack Engineer</MDBCardTitle>
+          <MDBCardTitle  tag="h5">Beauty Tech</MDBCardTitle>
           <MDBCardText>
-           After being rejected so many times, how did become a Full Stack Engineer? Find out how I never gave up. 
+           How can you type over 100 wpm and still keep your manicure cute? 
           </MDBCardText>
           <MDBBtn href="/blog" color="primary" size="md">
             Find out More

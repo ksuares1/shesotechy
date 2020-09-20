@@ -14,13 +14,19 @@
     height:45%;
 }
 
+.intro{
+    text-align:center;
+}
+
+.jump{
+    width:600px;
+    height:70%;
+    float:right;
+}
+
 .blog-description{
     text-align:center;
     font-size:16px;
 }
 
-.kim-pic{
-width:75%;
-height:50%;
-margin:auto;
-}
+
