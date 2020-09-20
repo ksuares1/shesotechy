@@ -32,12 +32,16 @@ const HomePage = () => {
 </br>
 <MDBRow>
   <MDBCol>
-    <img src={require("../../assets/img/kim-jump.jpg")} className="jump" alt="Kimberly Suares jumping for joy" />
-    <div>
+  <img src={require("../../assets/img/kim-jump.jpg")} className="jump" alt="Kimberly Suares jumping for joy" />
+    <div className="container">
   <h1 className="intro">Hi! I'm Kimberly Suares</h1>
+  <p className="intro-line">I’m a Full Stack Web Developer specializing in health focused applications. 
+  My coding journey started almost six years ago, after I took an online business course. 
+  </p>
   </div>
   </MDBCol>
 </MDBRow>
+
 
 <br>
 </br>

@@ -16,12 +16,23 @@
 
 .intro{
     text-align:center;
+    float: left;
+}
+
+.intro-line{
+    text-align:center;
+    margin:auto;
+    width: 35%;
+    height:45%;
+    float:left;
 }
 
 .jump{
-    width:600px;
-    height:70%;
+    width:650px;
+    height:65%;
     float:right;
+    margin:auto;
+    border:50%;
 }
 
 .blog-description{
