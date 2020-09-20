@@ -45,8 +45,7 @@ const HomePage = () => {
 
 <br>
 </br>
-<br>
-</br>
+
 {/* Blog Cards */}
 <h1 className="blog-title">ShesoTechy Blog</h1>
 <hr className="line-dash">
