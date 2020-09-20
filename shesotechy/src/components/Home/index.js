@@ -30,6 +30,7 @@ const HomePage = () => {
 </br>
 <br>
 </br>
+{/* Bio Section */}
 <MDBRow>
   <MDBCol>
   <img src={require("../../assets/img/kim-jump.jpg")} className="jump" alt="Kimberly Suares jumping for joy" />
@@ -42,7 +43,8 @@ const HomePage = () => {
   </MDBCol>
 </MDBRow>
 
-
+<br>
+</br>
 <br>
 </br>
 {/* Blog Cards */}
