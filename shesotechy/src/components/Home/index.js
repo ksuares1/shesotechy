@@ -18,7 +18,7 @@ const HomePage = () => {
            <br>
            </br>
             <p className="lead">
-              <MDBBtn color="primary">Learn More</MDBBtn>
+              <MDBBtn color="primary">More</MDBBtn>
             </p>
           </MDBJumbotron>
         </MDBCol>
@@ -31,18 +31,33 @@ const HomePage = () => {
 <br>
 </br>
 {/* Bio Section */}
-<MDBRow>
+{/* <MDBRow>
   <MDBCol>
   <img src={require("../../assets/img/kim-jump.jpg")} className="jump" alt="Kimberly Suares jumping for joy" />
-    <div className="container">
+  <div className="container">
   <h1 className="intro">Hi! I'm Kimberly Suares</h1>
   <p className="intro-line">I’m a Full Stack Web Developer specializing in health focused applications. 
   My coding journey started almost six years ago, after I took an online business course. 
   </p>
   </div>
-  </MDBCol>
-</MDBRow>
+  {/* <div className="col">
+  <button type="button" className="bio-button btn btn-warning">Warning</button>
+  </div> */}
+  {/* </MDBCol>
+</MDBRow>  */}
 
+<br>
+</br>
+
+{/* Service Section */}
+<section>
+  <h1 className="service-section">Services</h1>
+  <hr className="section-line">
+  </hr>
+</section>
+
+<br>
+</br>
 <br>
 </br>
 
